@@ -1,6 +1,6 @@
 ---
 title: "PA 9: Writing Functions"
-author: "Danny & Quinn"
+author: "Danny, Quinn, Ericka"
 format: 
   html:
     embed-resources: true
