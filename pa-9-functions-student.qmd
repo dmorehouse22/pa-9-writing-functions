@@ -54,7 +54,7 @@ divide_and_round(test)  #you should see mostly values of 1 and 2, plus an NA
 ```{r}
 #| label: q4
 
-ifelse(nums %% 9 == 0 ___ nums %% 12 == 0, ____ , ____)  #it should say FALSE for 9 and 12 positions
+ifelse(nums %% 9 == 0 | nums %% 12 == 0, FALSE, TRUE)  #it should say FALSE for 9 and 12 positions
  
 ```
 
@@ -63,8 +63,8 @@ ifelse(nums %% 9 == 0 ___ nums %% 12 == 0, ____ , ____)  #it should say FALSE fo
 ```{r}
 #| label: q5
 
-no_nines_or_twelves <- function(vec) {
-
+no_nines_or_twelves <- function(x) {
+ifelse(x %% 9 == 0 | x %% 12 == 0, FALSE, TRUE)
 }
 
 ```
