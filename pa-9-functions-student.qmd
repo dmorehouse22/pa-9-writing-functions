@@ -1,6 +1,6 @@
 ---
 title: "PA 9: Writing Functions"
-author: "INSERT NAMES HERE"
+author: "Danny & Quinn"
 format: 
   html:
     embed-resources: true
